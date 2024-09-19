@@ -1,6 +1,24 @@
 # SQCC-Task
 This task focuses on predicting the stock market using two types of models: regression and classification. The dataset contains various features like `Open`, `High`, `Low`, `Previous Close`, `Last Traded Price`, `Change`, `Percentage Change`, `Volume`, `Industry`, and `Series`. The is to apply machine learning techniques to predict the `Last Traded Price` and classify the `Percentage Change` as positive or negative.
+## Libraries Used
 
+- **numpy**: For numerical computations.
+- **pandas**: For data manipulation and analysis.
+- **matplotlib**: For plotting and visualizing results.
+- **seaborn**: For enhanced data visualization.
+- **scikit-learn**: For machine learning models, preprocessing, and evaluation metrics.
+  - **Model Selection and Evaluation**:
+    - `train_test_split` for splitting data
+    - `GridSearchCV` for hyperparameter tuning
+    - `cross_val_score` for cross-validation
+    - `mean_squared_error`, `mean_absolute_error` for regression metrics
+    - `accuracy_score`, `recall_score`, `precision_score`, `f1_score`, `confusion_matrix`, `ConfusionMatrixDisplay`, `classification_report` for classification metrics
+  - **Models**:
+    - `LinearRegression` for regression tasks
+    - `LogisticRegression` for binary classification tasks
+    - `SVC`, `LinearSVC` for Support Vector Classification
+  - **Preprocessing**:
+    - `StandardScaler`, `RobustScaler` for feature scaling
 ## Project Structure
 
 - **Data Preprocessing**:
