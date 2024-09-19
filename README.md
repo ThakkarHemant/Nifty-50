@@ -6,7 +6,7 @@ This task focuses on predicting the stock market using two types of models: regr
 - **Data Preprocessing**:
   - Cleaned the dataset.
   - Handled missing values.
-  - Applied One-Hot Encoding for categorical variables such as `Industry` and `Series`.
+  - Applied One-Hot Encoding for categorical variables such as `Industry` and Label Encoding for `Series`.
   - Used **Robust Scaler** for scaling the features.
 
 - **Regression**:
