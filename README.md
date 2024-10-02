@@ -1,5 +1,5 @@
-# SQCC-Task
-This task focuses on predicting the stock market using two types of models: regression and classification. The dataset contains various features like `Open`, `High`, `Low`, `Previous Close`, `Last Traded Price`, `Change`, `Percentage Change`, `Volume`, `Industry`, and `Series`. The is to apply machine learning techniques to predict the `Last Traded Price` and classify the `Percentage Change` as positive or negative.
+# Nifty-50
+This project focuses on predicting the stock market using two types of models: regression and classification. The dataset contains various features like `Open`, `High`, `Low`, `Previous Close`, `Last Traded Price`, `Change`, `Percentage Change`, `Volume`, `Industry`, and `Series`. 
 ## Libraries Used
 
 - **numpy**: For numerical computations.
